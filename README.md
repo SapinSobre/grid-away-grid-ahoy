@@ -1,2 +1,2 @@
-[ma page Github]: https://SapinSobre.github.io/grid-away-grid-ahoy/main/index.html
+[ma page Github]: https://SapinSobre.github.io/grid-away-grid-ahoy
 Lien vers [ma page Github] 
