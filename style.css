@@ -1,7 +1,7 @@
 body{
     display: grid;
-    grid-template-rows: 0.5% 99% 0.5%;
-    grid-template-columns: 1% 8% 1% 89% 1%;
+    grid-template-rows: 0.5% 64.5% 35%;
+    grid-template-columns: 1% 7% 1% 90% 1%;
 }
 
 /* BARRE DE NAVIGATION*/
@@ -9,8 +9,8 @@ header{
     grid-row: 2/3;
     grid-column: 2/3;
     display: grid;
-    grid-template-rows: 5% 90% 5%;
-    grid-template-columns: 5% 90% 5%; 
+    grid-template-rows: 5% 90% 5% 200px;
+    grid-template-columns: 5% 85% 10%; 
 }
 nav{
     display: grid;
@@ -59,10 +59,11 @@ nav a#contact{
 section{
     background-color: lightgrey;
     display: grid;
-    grid-template-rows: 5% 90% 5%;
-    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: 4% 92% 4%;
+    grid-template-columns: 1% 95% 4%;
     grid-row: 2/3;
-    grid-column: 4/5;     
+    grid-column: 4/5; 
+    height: 900px;    
 }
 ul{
     background-color: lightgrey;
@@ -77,6 +78,9 @@ ul li{
     background-color: white;    
     text-align: center;
     font-size: 1em;
+    height: auto;
+    padding-left: 1%;
+    padding-right:1%;
 }
 li#vignette1{
     grid-row: 1/2;
@@ -116,7 +120,7 @@ img{
     border-radius: 50%;
     background: lightgrey;
     margin-top: 25px;
-}li 
+}
 li a{
     color: grey;
     border-radius: 10%;
