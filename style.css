@@ -12,6 +12,11 @@ header{
     grid-template-rows: 5% 90% 5% 200px;
     grid-template-columns: 5% 85% 10%; 
 }
+@media (max-width: 768px){
+    header{
+        display: none;
+    }
+}
 nav{
     display: grid;
     grid-template-rows: 14% 7.5% 14% 7.5% 14% 7.5% 14% 7.5% 14%;
